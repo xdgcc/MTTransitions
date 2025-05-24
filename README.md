@@ -109,7 +109,7 @@ pod MTTransitions
 Each transition requires two input `MTIImage`. Image should be `.oriented(.downMirrored)`.
 
 ```swift
-import MTTransitions
+import MTTransitions_Enhanced
 
 let transition = MTBounceTransition()
 transition.inputImage = <from Image>

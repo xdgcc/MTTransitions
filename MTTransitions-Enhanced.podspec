@@ -1,14 +1,17 @@
 Pod::Spec.new do |s|
-  s.name         = 'MTTransitions'
-  s.version      = '1.6.6'
+  s.name         = 'MTTransitions-Enhanced'
+  s.version      = '1.0.0'
   s.license = 'MIT'
   s.requires_arc = true
-  s.source = { :git => 'https://github.com/alexiscn/MTTransitions.git', :tag => s.version.to_s }
+  
+  s.source = { :git => 'https://github.com/xdgcc/MTTransitions.git', :tag => s.version.to_s }
 
-  s.summary         = 'MTTransitions'
-  s.homepage        = 'https://github.com/alexiscn/MTTransitions'
+  s.summary         = 'MTTransitions - Enhanced Fork with Custom Modifications'
+  s.homepage        = 'https://github.com/xdgcc/MTTransitions'
   s.license         = { :type => 'MIT' }
-  s.author          = { 'alexiscn' => 'shuifengxu@gmail.com' }
+  
+  s.author          = { 'xdgcc' => 'xdgcc1994@gmail.com' }
+  
   s.platform        = :ios
   s.swift_version   = '5.0'
   s.source_files    = 'Source/**/*.{swift,metal,h}'

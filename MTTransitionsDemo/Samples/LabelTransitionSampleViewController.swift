@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MTTransitions
+import MTTransitions_Enhanced
 
 class LabelTransitionSampleViewController: UIViewController {
 

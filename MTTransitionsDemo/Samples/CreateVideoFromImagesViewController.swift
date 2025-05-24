@@ -8,7 +8,7 @@
 
 import UIKit
 import MetalPetal
-import MTTransitions
+import MTTransitions_Enhanced
 import Photos
 
 class CreateVideoFromImagesViewController: UIViewController {

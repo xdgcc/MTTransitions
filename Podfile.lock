@@ -1,28 +1,28 @@
 PODS:
-  - MetalPetal (1.23.0):
-    - MetalPetal/Core (= 1.23.0)
-  - MetalPetal/Core (1.23.0)
-  - MetalPetal/Swift (1.23.0):
+  - MetalPetal (1.25.2):
+    - MetalPetal/Core (= 1.25.2)
+  - MetalPetal/Core (1.25.2)
+  - MetalPetal/Swift (1.25.2):
     - MetalPetal/Core
-  - MTTransitions (1.6.6):
+  - MTTransitions-Enhanced (1.0.0):
     - MetalPetal
     - MetalPetal/Swift
 
 DEPENDENCIES:
-  - MTTransitions (from `.`)
+  - MTTransitions-Enhanced (from `.`)
 
 SPEC REPOS:
   trunk:
     - MetalPetal
 
 EXTERNAL SOURCES:
-  MTTransitions:
+  MTTransitions-Enhanced:
     :path: "."
 
 SPEC CHECKSUMS:
-  MetalPetal: 006266db17a9bc070039828e356fb87bd4696cfa
-  MTTransitions: 75682a7e03f257fd228f0c1e890c620d935923e7
+  MetalPetal: 001513fa0b0f6d4f147aa2651d40c594f2eacb01
+  MTTransitions-Enhanced: 91983a001c90404c65d49ce5a14fa9c6229fbdf9
 
-PODFILE CHECKSUM: cd0bc42ffb43535af6ea50b27fff755caa97ca66
+PODFILE CHECKSUM: a7c7949e1be3109abe5835e1d2474ce493d820fc
 
 COCOAPODS: 1.16.2

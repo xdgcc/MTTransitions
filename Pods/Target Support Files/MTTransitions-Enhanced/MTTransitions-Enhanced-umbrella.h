@@ -12,6 +12,6 @@
 
 #import "MTTransitionLib.h"
 
-FOUNDATION_EXPORT double MTTransitionsVersionNumber;
-FOUNDATION_EXPORT const unsigned char MTTransitionsVersionString[];
+FOUNDATION_EXPORT double MTTransitions_EnhancedVersionNumber;
+FOUNDATION_EXPORT const unsigned char MTTransitions_EnhancedVersionString[];
 
