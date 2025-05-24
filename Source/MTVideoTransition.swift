@@ -120,7 +120,7 @@ public class MTVideoTransition: NSObject {
         */
         let videoComposition = AVMutableVideoComposition()
         videoComposition.customVideoCompositorClass = MTVideoCompositor.self
-        videoComposition.frameDuration = CMTimeMake(value: 1, timescale: 30) // 30 fps.
+        videoComposition.frameDuration = CMTimeMake(value: 1, timescale: 60) // 60 fps.
         videoComposition.renderSize = videoSize
         
         buildTransitionComposition(composition, videoComposition: videoComposition)
